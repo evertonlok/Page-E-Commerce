@@ -7,6 +7,9 @@
     .pic-imgs{
         text-align: center;
     }
+    main .div-thumbs .pic-imgs img{
+        height: 500px;
+    }
 }
 @media (max-width: 991.98px) { 
     header div{
@@ -29,9 +32,6 @@
     }
     main .div-thumbs .pic-imgs div{
         margin: auto;
-    }
-    main .div-thumbs .pic-imgs img{
-        height: 500px;
     }
     footer div{
        text-align: center;
