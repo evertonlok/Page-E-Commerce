@@ -1,0 +1,186 @@
+.header-border{
+    height: 8px;
+    width:100%;
+    padding:0 !important;
+    margin:0 !important;
+    background-color: black;
+}
+.square-icon{
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    margin-right: 3px;
+    margin-bottom:5px;
+    font-size: 15px;
+    vertical-align:middle;
+    &:nth-child(1){
+        font-size: 10px;
+    }
+    &:nth-child(5){
+        font-size: 10px;
+    }
+}
+header{
+    .nav-link
+    {
+        color:black;
+        font-weight: bold;
+    }
+}
+main{
+    .breadcrumb a{
+        color:grey;
+    }
+    .div-details{
+        .details-top{
+            h1{
+                font-family: 'Jomolhari', serif;
+            }
+            p{
+                color:grey;
+                margin:0;
+            }
+            .icons{
+                margin-top:10px;
+                color:grey;
+                i{
+                    margin-right: 30px;
+                }
+            }
+            .main-img-title{
+                font-size: 50px;
+                font-weight: 400;
+                }
+            h2{
+                font-weight: 100;
+                color:goldenrod;
+            }
+        }
+        .details-bottom{
+            span{
+                margin-left:15px;
+            }
+            p:first-of-type,li{
+                color:grey;
+            }
+            ul{
+                list-style:none;
+                padding-left:10px;
+            }
+            ul li::before{
+                content: "\2022";
+                margin-right:10px;
+                color:black;
+            }
+            form{
+                b{
+                    color:grey;
+                }
+                &+p{
+                    margin:0;
+                    margin-top:10px;
+                }
+                &~p{
+                    font-weight: 600;
+                }
+            }
+            .btn-calcular{
+                background-color: transparent;
+                outline: none !important;
+                border:0;
+                cursor: pointer;
+            }
+        }
+        .bag-btn{
+            background-color:purple;
+            color:white;
+            border-radius: 0;
+            border:0;
+            padding:15px;
+            width: 100%;
+            cursor: pointer;
+        }
+        .wish-list p{
+            vertical-align: 50%;
+        }
+        .select-size{
+            width: 35%;
+            margin:30px 0;
+        }
+    }
+    .div-thumbs{
+        .main-img{
+                width: 100%;
+            }
+        .pic-imgs{
+            margin:0;
+            margin-top: 5px; 
+            div{
+                padding:0;
+                margin:0 10px;
+            }
+            .select-border{
+                border-bottom:3px solid grey;
+            }   
+            img{
+                width:100%;
+                margin-bottom:5px;
+            }
+        }
+    }
+    .div-prateleira{
+        margin-top: 90px;
+        .prateleira-border{
+            height: 2px;
+            background-color: goldenrod;
+            width: 5%;
+            margin: auto;
+            margin-top:30px;
+            margin-bottom:50px;
+        }
+        .prateleira .card{
+            border:none !important;
+            flex:0 0 auto;
+            padding: 0 25px;
+        }
+    }
+}
+
+footer{
+    border-top:6px aqua solid;
+    background-color: black;
+    color: white;
+    h6{
+        font-weight: 400;
+    }
+    p{
+        color:grey;
+    }
+    h5{
+        color:#B2BABB;
+    }
+    figure {
+    align-self: center;
+    }
+    a{
+        color:grey;
+        &:hover{
+            color:grey;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    }
+    input[type="text"]{
+         background-color:#363636;
+         border:none;
+         width: 80%;
+         padding:10px;
+         display: block;
+         &:focus{       
+            box-shadow: none;
+            outline: none;
+        }
+    }
+}

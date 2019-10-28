@@ -1,0 +1,47 @@
+@media (max-width: 575.98px) { 
+    .pic-imgs img{
+        height:400px;
+        margin-top:30px;
+        margin-bottom:30px;
+    }
+    .pic-imgs{
+        text-align: center;
+    }
+}
+@media (max-width: 991.98px) { 
+    header div{
+        text-align: center;
+    }
+    ::placeholder{
+        text-align: center;
+    }
+    ::-webkit-input-placeholder{
+        text-align: center;
+    }
+    :-ms-input-placeholder{
+        text-align: center;
+    }
+    main{
+        text-align: center;
+    }
+    main .div-details .select-size{
+        width: 100% ;
+    }
+    main .div-thumbs .pic-imgs div{
+        margin: auto;
+    }
+    main .div-thumbs .pic-imgs img{
+        height: 500px;
+    }
+    footer div{
+       text-align: center;
+       margin-top: 30px;
+    }
+    footer input{
+        margin: auto;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {  }
+@media (min-width: 768px) and (max-width: 991.98px) {  }
+@media (min-width: 992px) and (max-width: 1199.98px){  }
+@media (min-width: 1200px) {  }
