@@ -12,6 +12,8 @@ Instale as dependencias.
 Rode a aplicação.
 
 ### `npm start`
+ou
+### `gulp serve`
 <br>
 abra http://localhost:3000 para visualizar no navegador.
 <br>
