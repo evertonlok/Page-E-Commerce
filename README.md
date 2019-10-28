@@ -2,7 +2,7 @@
  
 Na pasta Atual digite.
 
-### `Mizu-Teste`
+### `cd Mizu-Teste`
 
 <br> 
 Instale as dependencias.
